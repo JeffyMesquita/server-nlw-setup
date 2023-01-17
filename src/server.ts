@@ -13,7 +13,7 @@ app.get('/habits', async () => {
     }
   })
   
-  return {habits, message: 'Bia te Amo S2!!!'};
+  return {habits};
 });
 
 app.listen({
